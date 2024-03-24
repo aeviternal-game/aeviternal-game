@@ -1,0 +1,2 @@
+- https://itch.io/docs/creators/html5
+- https://docs.github.com/en/pages/quickstart
