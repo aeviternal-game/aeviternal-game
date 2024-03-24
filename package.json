@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0",
+    "shuffle-array": "^1.0.1",
+    "socket.io": "^4.7.5"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "phaser-card-game",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
