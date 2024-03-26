@@ -20,7 +20,8 @@ export default class InteractiveHandler {
         scene.input.on('pointerover', (event, gameObjects) => {
             let pointer = scene.input.activePointer; // for Phaser to notice
             if (gameObjects[0].type === "Image" && gameObjects[0].data.list.name !== "cardBack") {
-                scene.cardPreview = scene.add.image(pointer.worldX, pointer.worldY, gameObjects[0].data.values.sprite).setScale(1.5, 1.5);
+                // scene.cardPreview = scene.add.image(pointer.worldX, pointer.worldY, gameObjects[0].data.values.sprite).setScale(1.5, 1.5);
+                scene.cardPreview = scene.add.image(pointer.worldX, pointer.worldY, gameObjects[0].data.values.sprite).setScale(1/3, 1/3);
             }
         })
 

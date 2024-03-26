@@ -38,6 +38,8 @@ export class Game extends Scene
         this.UIHandler.buildUI();
         this.InteractiveHandler = new InteractiveHandler(this);
 
+        // let bob = this.add.image(200, 200, "card-back1").setScale(1/7, 1/7);
+
         // // testing
         // this.add.image(100, 100, 'card-clubs-1');
 

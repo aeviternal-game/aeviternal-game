@@ -51,6 +51,7 @@ export class Preloader extends Scene
                 this.load.image(imagename, filename);
             });
         });
+
     }
 
     create ()

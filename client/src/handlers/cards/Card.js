@@ -12,7 +12,7 @@ export default class Card {
                 "name": this.name,
                 "type": type,
                 "sprite": sprite
-            });
+            }).setScale(1/7, 1/7);
             if (type === 'playerCard') {
                 scene.input.setDraggable(card);
             }
